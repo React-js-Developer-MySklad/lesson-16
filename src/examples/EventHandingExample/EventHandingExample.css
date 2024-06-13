@@ -1,0 +1,17 @@
+.event-handing__target {
+  height: 20px;
+  opacity: 1;
+  border: 1px solid #ccc;
+  background-color: #cdf;
+}
+
+.event-handing__wrapper {
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.event-handing__parent {
+  padding: 20px;
+  background-color: #ffc;
+  border: 1px solid #ccc;
+}
