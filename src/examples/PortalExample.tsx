@@ -15,6 +15,7 @@ export const PortalExample = () => {
         console.log("всплытие после клика на портал");
       }}
     >
+      <h2>Portal</h2>
       <button onClick={() => setIsBlackModalShown(true)}>
         Show Black modal using a portal
       </button>

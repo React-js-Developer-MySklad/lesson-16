@@ -10,14 +10,14 @@ export const DashboardPage = () => {
             {/*<EventHandingExample1/>*/}
             {/*<EventHandingExample2/>*/}
 
-            <ListExample1/>
+            {/*<ListExample1/>*/}
             {/*<ListExample2/>*/}
 
             {/*<KeyExample1/>*/}
             {/*<KeyExample2/>*/}
             {/*<KeyExample3/>*/}
 
-            {/*<PortalExample/>*/}
+            <PortalExample/>
         </>
     )
 }

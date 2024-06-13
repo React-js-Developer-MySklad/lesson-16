@@ -25,9 +25,12 @@ const Counter: React.FC<Props> = ({ title }) => {
   const [count, setCount] = useState(0);
 
   return (
-    <div style={{userSelect: 'none'}} onClick={() => setCount(count + 1)}>
-      <strong>{title}: </strong>
-      <span>{count}</span>
-    </div>
+      <>
+        <h2>Keys / Condition Rendering </h2>
+        <div style={{userSelect: 'none'}} onClick={() => setCount(count + 1)}>
+          <strong>{title}: </strong>
+          <span>{count}</span>
+        </div>
+      </>
   );
-};
+}

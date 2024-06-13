@@ -23,18 +23,21 @@ export const KeyExample2 = () => {
     const [isFirstCounter, setFirstCounter] = useState(false);
 
     return (
-        <div style={{userSelect: 'none'}}>
-            {isFirstCounter ? (
-                <Counter title="First Counter" />
-            ) : (
-                <Counter title="Second  Counter" />
-            )}
+        <>
+            <h2>Keys / Condition Rendering</h2>
+            <div style={{userSelect: 'none'}}>
+                {isFirstCounter ? (
+                    <Counter title="First Counter"/>
+                ) : (
+                    <Counter title="Second  Counter"/>
+                )}
 
-            <hr />
+                <hr/>
 
-            <button onClick={() => setFirstCounter(!isFirstCounter)}>
-                toggle counter
-            </button>
-        </div>
-    );
-};
+                <button onClick={() => setFirstCounter(!isFirstCounter)}>
+                    toggle counter
+                </button>
+            </div>
+        </>
+    )
+}

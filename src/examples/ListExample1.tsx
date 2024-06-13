@@ -61,7 +61,8 @@ export const ListExample1 = () => {
   }
 
   return (
-    <div>
+    <>
+      <h2>List & Keys</h2>
       <div>
         <form
           onSubmit={(event) => {
@@ -83,6 +84,6 @@ export const ListExample1 = () => {
           <Item>{todo}</Item>
         ))}
       </List>
-    </div>
+    </>
   );
 };
